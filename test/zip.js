@@ -1,4 +1,4 @@
-import { test, zip, p } from '../build/main.js';
+import { test, zip } from '../build/main.js';
 
 test.add(
 	'ZIP',
@@ -24,4 +24,3 @@ test.add(
 );
 
 test.runTests();
-p`Hello my id is ${[1, 2, 3, , 4, 5, 6, 4]}`;
