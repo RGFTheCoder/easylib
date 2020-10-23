@@ -6,7 +6,12 @@ A simple library meant to teach people to code. Includes basic utilities.
 
 ### TSC + Node:
 ```ts
-import { zip, p } from './build/main.ts';
+import { zip, p } from './src/main.ts';
+```
+
+### Node:
+```js
+import { zip, p } from './build/main.js';
 ```
 
 ### Web:
